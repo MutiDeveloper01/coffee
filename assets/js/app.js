@@ -24,7 +24,12 @@ function openAdsUser(){
         adsUser.style.display = 'block';
         adsUser.style.left = '20px';
 }
-
+function closeAdsUser(){
+        const adsUser = this.document.getElementById('adsUser');
+        adsUser.style.left = '-400px';
+        adsUser.style.display = 'none';
+}
 window.onload = function(){
         setTimeout(openAdsUser , 3000);
+        setTimeout(closeAdsUser , 10000)
 }
