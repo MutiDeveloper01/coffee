@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website  | Mrcodee.js   </title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icon Link for Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navbar Section -->
+    <header id="user_disable">
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="./assets/images/coffee_logo.png" alt="Coffee Logo" />
+            <h2>کافه</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul id="navBar">
+         <li class="navList"><a href="#contact" data-target="contact">ارتباط </a></li>
+         <li class="navList"><a href="#gallery" data-target="gallery">گالری</a></li>
+          <li class="navList"><a href="#why" data-target="why">چرا ما ؟ </a></li>
+          <li class="navList"><a href="#service" data-target="service">خدمات</a></li>
+          <li class="navList"><a href="#about" data-target="about">درباره ما</a></li>
+          <li class="navList"><a href="#" data-target="#">خانه</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <!-- زمانی که کاربر عضو بود  -->
+
+    <header id="user_enable">
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="./assets/images/coffee_logo.png" alt="Coffee Logo" />
+            <h2>کافه</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul id="navBar">
+         <li class="navList"><a href="#contact" data-target="contact">ارتباط </a></li>
+         <li class="navList"><a href="#gallery" data-target="gallery">گالری</a></li>
+          <li class="navList"><a href="#why" data-target="why">چرا ما ؟ </a></li>
+          <li class="navList"><a href="#service" data-target="service">خدمات</a></li>
+          <li class="navList"><a href="#about" data-target="about">درباره ما</a></li>
+          <li class="navList"><a href="#" data-target="#">خانه</a></li>
+          <li class="navList"><a href="#" data-target="#">حساب کاربری</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>اشتیاق خود را تقویت کنید</h2>
+            <h3>سحر و جادو را در هر کافه کشف کنید</h3>
+            <p>
+             به بهشت ​​قهوه ما خوش آمدید، جایی که هر دانه یک داستان و
+             هر فنجان جرقه میزند
+            </p>
+
+            <div class="hero_section_button">
+              <button class="button" onclick="showAlert()">سفارش آنلاین</button>
+              <button class="button">یک میز رزرو کنید</button>
+            </div>
+          </div>
+
+          <div class="image_section">
+            <img src="./assets/images/cofffee_image.png" alt="Coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about_us" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title subject">درباره ما </h2>
+            <p>
+             ما در قهوه خانه، واقع در تهران  یکی از
+             پاتوق های مورد علاقه برای قهوه و گفتگو. هدف ما این است که
+             بهترین تجربه را به میهمانان خود ارائه می دهیم و از معتبر بودن آن اطمینان می دهیم
+             تجربه نوشیدن قهوه در محیطی گرم، دوستانه و آرام
+             محیط. هدف ما ایجاد حس آرامش در شهر است
+             با فضای دنج ما، با کاناپه های راحت برای استراحت
+             در حالی که از قهوه خود لذت می برید.
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="./assets/images/about_coffee.png" alt="coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+      <h2 class="section_title subject">خدمات ما </h2>
+      <div class="section_container">
+        <div class="service_container">
+          <div class="services_items">
+            <img src="./assets/images/hot_beverages.png" alt="Hot Beverages" />
+            <div class="services_text">
+              <h3>نوشیدنی های گرم</h3>
+              <p>
+               طیف گسترده ای از قهوه های داغ بخارپز برای تازه و سبک شدن شما.
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="./assets/images/cold_beverages.png" alt="Cold Beverages" />
+            <div class="services_text">
+              <h3>Cold Beverages</h3>
+              <p>
+               قهوه سرد خامه ای و کف آلود برای ایجاد احساس خنکی  .
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="./assets/images/refreshment.png" alt="Refreshment" />
+            <div class="services_text">
+              <h3>طراوت</h3>
+              <p>میوه و نوشیدنی خنک کننده یخی برای ایجاد حس خوب.</p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="./assets/images/special_combos.png" alt="Special Combos" />
+            <div class="services_text">
+              <h3>ترکیب های خاص</h3>
+              <p>
+               اکنون انتخاب ترکیبات مورد علاقه خود برای خوردن و نوشیدن بسیار آسان است.
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img
+              src="./assets/images/burger_frenchFries.png"
+              alt="Burger & French Fries"
+            />
+            <div class="services_text">
+              <h3>برگر و سیب زمینی سرخ کرده</h3>
+              <p>لذیذ! لقمه های سریع برای رفع گرسنگی سایز کوچک شما.</p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="./assets/images/dessert.png" alt="Desserts" />
+            <div class="services_text">
+              <h3>دسر ها</h3>
+              <p>
+               این مطمئناً کام شما را راضی می‌کند و شما را به یک سفر آشپزی می‌برد.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why_us" id="why">
+      <h2 class="section_title subject"> چرا ما ؟</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <img src="./assets/images/delicious.png" alt="Delicious" />
+            <div class="why_us_text">
+              <h3>غذاهای  </h3>
+              <p>
+               با یک سفره گسترده از غذاهای خوشمزه، ما آماده‌ایم تا کام شما را راضی کنیم و شما را به یک سفر آشپزی ببریم.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="./assets/images/pleasant.png" alt="Pleasant" />
+            <div class="why_us_text">
+              <h3>فضای دلپذیر</h3>
+              <p>
+               ما به دنبال ارائه بهترین تجربه غذاخوری برای تمام مهمانانمان هستیم. ما فضایی ایده‌آل را فراهم می‌کنیم تا لحظات خاص را گرامی بدارید.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="./assets/images/hospitality.png" alt="Hospitality" />
+            <div class="why_us_text">
+              <h3>مهمان‌نوازی</h3>
+              <p>
+               اعضای تیم ما با خوشحالی آماده کمک هستند. ما فراتر از انتظارها عمل می‌کنیم تا شما را خوشحال کنیم.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h2 class="section_title subject">گالری</h2>
+      <div class="section_container">
+        <div class="gallery_container">
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_1.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_2.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_3.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_4.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_5.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="./assets/images/gallery_6.jpg" alt="Gallery Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section_title subject"> ارتباط با ما</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">اسم کامل </label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">ایمیل </label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">شماره همراه </label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">متن‌ ورودی</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">ثبت</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3 >آدرس ما</h3>
+                <p>تهران </p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>سؤالات عمومی</h3>
+                <p>coffeeshop@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3 class="subject">ارتباط با ما </h3>
+                <p> 92728239</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>ساعات کاری ما</h3>
+                <p>شنبه تا جمعه: 10:00 صبح تا 23:00 شب</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="./assets/images/coffee_logo.png" alt="Coffee Logo" />
+              <h2>کافه</h2>
+            </a>
+          </div>
+
+          <div class="useful_links">
+            <h3>لینک های مفید </h3>
+            <ul>
+              <li><a href="#about">درباره ما</a></li>
+              <li><a href="#service">خدمات</a></li>
+              <li><a href="#why">چرا ما ؟ </a></li>
+              <li><a href="#gallery">گالری</a></li>
+              <li><a href="#contact">ارتباط</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>ارتباط</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i>
+                <span>تهران </span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i> <span> 92728239</span>
+              </li>
+              <li>
+                <i class="bx bxs-time-five"></i>
+                <span>شنبه تا جمعه: 10:00 صبح تا 23:00 شب</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="follow_us">
+            <h3>فضای مجازی </h3>
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram-alt"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- جزئیات  -->
+     <div class="order_online" id="orderOnline">
+      <div class="order-head">سفارش آنلاین 
+        <i class="bx-error bx bx-error"></i>
+      </div>
+      <div class="order-body">برای سفارش وارد اکانت خود شوید</div>
+      <div class="timeline"></div>
+      <button class="order-btn" onclick="closeAlert()">بستن</button>
+     </div>
+
+     <!-- تبلیغ عضویت  -->
+      <div class="ads_user" id="adsUser">
+        <a href="#">
+          <span>همین الان عضوشو و سفارشتو ثبت کن</span>
+          <img src="./assets/images/coffee_logo.png" alt="">
+        </a>
+      </div>
+<script src="./assets/js/app.js"></script>
+  </body>
+</html>
